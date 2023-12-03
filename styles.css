@@ -1,0 +1,197 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3efed;
+    color: #333;
+}
+
+h2,h3 {
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #5c2a1d;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 40px;
+    z-index: 1000; /* Add a high z-index to ensure it's on top of other elements */
+}
+
+.logo img {
+    width: 100px; /* Adjust the width of the logo */
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3rem
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #a1c7b1; /* Adjust the color on hover */
+}
+
+button
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background: url('./Bilder/Butiken/3.png') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: top; */
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start; /* Align the container at the start of the flex container */
+    padding-top: 12vh;
+}
+
+.content-container h1 {
+    font-size: 2.5em;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 10px;
+}
+
+.content-container p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-family: 'Prompt', cursive;
+}
+
+
+
+/* Reasons to Choose Eco-Pet Section */
+.reasons-section {
+    text-align: center;
+    padding: 2em;
+    background-color: #ffddd2;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reasons-section h3 {
+    font-family: 'Cabin Sketch', sans-serif;
+}
+.reasons-section h2 {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+
+
+.reasons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px;
+}
+
+.reason {
+    width: 100%;
+    max-width: 300px;
+    text-align: center; /* Center text */
+    border-radius: 8px;
+    overflow: hidden; /* Ensure border radius is applied to images */
+}
+
+.reason img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.reason h3 {
+    margin-bottom: 10px; /* Add space between subheader and text */
+}
+
+/* Add space between subheader and text */
+.reason p {
+    margin-bottom: 20px;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #519a71;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Expertise and Care Section */
+.about-us-section {
+    text-align: center;
+    padding: 2em;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    text-align: center;
+    padding: 2em;
+    background-color: #4CAF50;
+    color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 2em;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section img {
+    width: 300px; /* Set the width of the image */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image */
+    border-radius: 8px;
+    margin-bottom: 20px; /* Add margin for spacing */
+}
